@@ -10,8 +10,6 @@ from evento    import EventosUsuarioComunidad
 def main():
     login()
 
-    opciones_comunidad(opcion, usuario)
-
 # -----
 main()
 
