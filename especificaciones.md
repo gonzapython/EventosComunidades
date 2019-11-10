@@ -27,7 +27,9 @@ USUARIO en la aplicación EventosComunidad
 
 
 2.)=> Cuando un usuario quiere registrarse:
+
     - lo normal de registrarse q ya hicimos...
+    
     - se dice q está registrado y se sale de la aplicación, diciendo q haga login para entrar
 
 
