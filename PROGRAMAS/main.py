@@ -1,12 +1,15 @@
 from usuario   import Usuarios
-from comunidad import Comunidades
-from evento    import Eventos
+from comunidad import ComunidadesUsuario
+from evento    import EventosUsuarioComunidad
 
+usuario   = Usuarios(comunidad)
+evento    = EventosUsuarioComunidad(usuario, comunidad)
+comunidad = ComunidadesUsuario(usuario, evento)
 
 def main():
-    opcion, usuario = login()
+    usuario.login()
 
-    opciones_comunidad(accion, usuario)
+    opciones_comunidad(opcion, usuario)
 
 # -----
 main()
