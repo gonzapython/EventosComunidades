@@ -15,11 +15,11 @@ def _validar_usuario_tipo(self, usuario, contrasena):
     #           - retorna el tipo: obtiene si es 'C' (creador), 'O' (organizador), ó 'N' (normal)
     pass
 
-def _menu_creador_organizador(self, usuario.nombre):
+def _menu_creador_organizador(self):
     # mostrar el menú de usuario creador/organizador
     pass
 
-def _menu_usuario_normal(self, usuario.nombre):
+def _menu_usuario_normal(self):
     # mostrar el menú de usuario normal
 
     opcion = int(input(" Elige una opcion: > "))
@@ -42,7 +42,7 @@ def login(self):
     contrasena = input(" Contraseña: ")
     tipo_usuario = self._validar_usuario_login(usuario, contrasena)
     opcion = self._ver_menu(usuario, contrasena, tipo_usuario)
-
+    return opcion, usuario
 
 # -- REGISTRARSE ----
 def registrarse(self):
