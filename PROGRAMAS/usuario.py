@@ -1,3 +1,5 @@
+from comunidad import ComunidadesUsuario
+
 class Usuarios():
     def __init__(self, nombre, contrasena, creador, organizador):
         self.nombre      = nombre

@@ -1,3 +1,5 @@
+from evento    import EventosUsuarioComunidad
+
 class ComunidadesUsuario():
     def __init__(self, nombre, direccion, fecha_creacion, usuario):
         self.nombre         = nombre
@@ -17,16 +19,15 @@ class ComunidadesUsuario():
         print(" has elegido borrar esa comunidad")
 
     def opciones_comunidad(self, usuario):
-        opcion_comunidad = int(input(" Elige una opcion para la COMUNIDAD: > "))
-        if opcion_comunidad == 1:
-            self._lista_comunidades(usuario)
-        elif opcion_comunidad == 2:
-            self._crear_comunidad()
-        elif opcion_comunidad == 3:
-            self._borrar_comunidad()
-        elif opcion_comunidad == 4: # volver al menú anterior
-            print(" has elegido volver al menú anterior")
-            return
+        # ir a la tabla COMUNIDAD_EVENTOS_USUARIO y sacar los EVENTOS (con sus datos) 
+        # de ese usuario/comunidad.
+        # Para cada una de ellas, hacer:
+        nombre_evento_BD      = 'subir a peñalara'
+        descripcion_evento_BD = 'escalada nivel 1'
+        fecha_evento_BD       = '01/04/2021'
+        #
+        evento = EventosUsuarioComunidad(nombre_evento_BD, descripcion_evento_BD, fecha_evento_BD, usuario, comunidad)
+        evento.opciones_evento(usuario, comunidad)
 
 
 # ----
