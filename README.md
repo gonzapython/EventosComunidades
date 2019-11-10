@@ -13,7 +13,7 @@ USUARIO en la aplicación EventosComunidad
             - se muestran los eventos de esa comunidad
             - puede ver/modificar los detalles de cada evento
             - puede crear nuevos eventos
-          - puede dar de alta una nueva comunidad o eliminar una existente
+        - puede dar de alta una nueva comunidad o eliminar una existente
           
     - si es un usuario "normal"
         - se le muestra su menú de usuario "normal":
@@ -22,6 +22,8 @@ USUARIO en la aplicación EventosComunidad
           - se muestran los eventos de esa comunidad
             - puede ver los detalles de cada evento
             - puede "apuntarse/desapuntarse" a uno o más eventos
+
+  - siempre puede volver al menú anterior al q se encuentre
 
 2.)=> Cuando un usuario quiere registrarse: 
 - lo normal de registrarse q ya hicimos... 
