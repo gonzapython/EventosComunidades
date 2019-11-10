@@ -19,11 +19,11 @@ USUARIO en la aplicación EventosComunidad
      - se le muestra su menú de usuario "normal":
       - LISTA de la/s comunidad/es a la/s q pertenece para q elija una
         - VER los eventos de esa comunidad a los ya está "apuntado" y elije uno
+          - DETALLES del evento elegido
+          - MODIFICAR: puede "apuntarse/desapuntarse" del evento elegido
         - VER TODOS los eventos de esa comunidad (indicando en cada uno, si ya está "apuntado") y elije uno
           - DETALLES del evento elegido
           - MODIFICAR: puede "apuntarse/desapuntarse" del evento elegido
-
-
 
 
 2.)=> Cuando un usuario quiere registrarse:
