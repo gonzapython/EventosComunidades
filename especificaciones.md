@@ -26,6 +26,7 @@ USUARIO en la aplicación EventosComunidad
           - MODIFICAR: puede "apuntarse/desapuntarse" del evento elegido
 
 
+
 2.)=> Cuando un usuario quiere registrarse:
 
     - lo normal de registrarse q ya hicimos...
