@@ -31,3 +31,6 @@ USUARIO en la aplicación EventosComunidad
   - lo normal de registrarse q ya hicimos... 
   - se dice q está registrado y se sale de la aplicación, diciendo q haga login para entrar
 
+Diagrama UML:
+
+![](./img/OrganizadorEventos_clases.png)
