@@ -1,11 +1,10 @@
-from comunidad import ComunidadesUsuario
-
 class Usuarios():
-    def __init__(self, nombre, contrasena, creador, organizador):
+    def __init__(self, nombre, contrasena, creador, organizador, comunidad):
         self.nombre      = nombre
         self.contrasena  = contrasena
         self.creador     = creador
         self.organizador = organizador
+        self.comunidad   = comunidad
 
 
     def _validar_usuario_tipo(self, usuario, contrasena):
@@ -25,8 +24,9 @@ class Usuarios():
         direcc_comunid_BD       = 'la montaña'
         fecha_creacc_comunid_BD = '01/11/1998'
         #
-        comunidad = ComunidadesUsuario(nombre_comunid_BD, direcc_comunid_BD, fecha_creacc_comunid_BD, usuario)
-        comunidad.opciones_comunidad(usuario)
+        #comunidad = ComunidadesUsuario(nombre_comunid_BD, direcc_comunid_BD, fecha_creacc_comunid_BD, usuario)
+        #comunidad.opciones_comunidad(usuario)
+        self.comunidad.opciones_comunidad(self.nombre)
 
     def _menu_usuario_normal(self, usuario):
         # mostrar el menú de usuario normal
@@ -38,8 +38,9 @@ class Usuarios():
         #
         # ---------------------------------------------------------
         # --- INTENTO de CONECTAR al USUARIO con COMUNIDAD --------
-        comunidad = ComunidadesUsuario(nombre_comunid_BD, direcc_comunid_BD, fecha_creacc_comunid_BD, usuario)
-        comunidad.opciones_comunidad(usuario)
+        #comunidad = ComunidadesUsuario(nombre_comunid_BD, direcc_comunid_BD, fecha_creacc_comunid_BD, usuario)
+        #comunidad.opciones_comunidad(usuario)
+        self.comunidad.opciones_comunidad(self.nombre)
         # ---------------------------------------------------------
         # ---------------------------------------------------------
 

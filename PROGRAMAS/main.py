@@ -8,11 +8,12 @@ from evento    import EventosUsuarioComunidad
 
 nombre = 'jose'
 
-usuario   = Usuarios('jose','aaaaaa', 'c', 'o')
+usuario   = Usuarios('jose','aaaaaa', 'c', 'o', 'comunidad2')
 evento    = EventosUsuarioComunidad('hackeando cañas',
                                     'lalalala', 'fecha',
-                                     usuario, comunidad)
-comunidad = ComunidadesUsuario('OSW','calle de la luz','10/10/10',  usuario, evento)
+                                     usuario)
+comunidad = ComunidadesUsuario('OSW','calle de la luz','10/10/10', usuario, evento)
+
 
 
 

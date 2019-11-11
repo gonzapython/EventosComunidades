@@ -1,10 +1,10 @@
 class EventosUsuarioComunidad():
-    def __init__(self, nombre, descripcion, fecha, usuario, comunidad):
+    def __init__(self, nombre, descripcion, fecha, usuario):
         self.nombre      = nombre
         self.descripcion = descripcion
         self.fecha       = fecha
         self.usuario     = usuario
-        self.comunidad   = comunidad
+        #self.comunidad   = comunidad
 
 
     def _lista_eventos(self, usuario, comunidad):
