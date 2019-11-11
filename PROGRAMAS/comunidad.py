@@ -1,11 +1,10 @@
-from evento    import EventosUsuarioComunidad
-
 class ComunidadesUsuario():
-    def __init__(self, nombre, direccion, fecha_creacion, usuario):
+    def __init__(self, nombre, direccion, fecha_creacion, usuario, evento):
         self.nombre         = nombre
         self.direccion      = direccion
         self.fecha_creacion = fecha_creacion
         self.usuario        = usuario
+        self.evento         = evento
 
 
     def _lista_comunidades(self, usuario):
@@ -27,8 +26,7 @@ class ComunidadesUsuario():
         descripcion_evento_BD = 'escalada nivel 1'
         fecha_evento_BD       = '01/04/2021'
         #
-        evento = EventosUsuarioComunidad(nombre_evento_BD, descripcion_evento_BD, fecha_evento_BD, usuario, comunidad)
-        evento.opciones_evento(usuario, comunidad)
+        self.evento.opciones_evento(usuario, self.nombre)
 
 
 # ----

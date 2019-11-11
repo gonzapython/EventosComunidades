@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "c:\\Users\\Gonzalo\\WORKSPACE\\EventosComunidades\\.venv\\Scripts\\python.exe",
+    "python.pythonPath": "/Users/jmgallego/workspace/EventosComunidades/.venv/bin/python3",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true
 }

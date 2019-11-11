@@ -68,7 +68,7 @@ class Usuarios():
 
 # ----
 
-#gonza = Usuarios('gonza', 'hhgg', 'S', 'N')
+#gonza = Usuarios('gonza', 'hhgg', True, False)
 
 #opcion, usuario = gonza.login()
 #print(f' opcion y usuario {opcion} y {usuario}')

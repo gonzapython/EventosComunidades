@@ -6,12 +6,19 @@ from evento    import EventosUsuarioComunidad
 #evento    = EventosUsuarioComunidad(usuario, comunidad)
 #comunidad = ComunidadesUsuario(usuario, evento)
 
-usuario   = Usuarios()
-comunidad = ComunidadesUsuario(usuario)
-evento    = EventosUsuarioComunidad(comunidad)
+nombre = 'jose'
+
+usuario   = Usuarios('jose','aaaaaa', 'c', 'o')
+evento    = EventosUsuarioComunidad('hackeando cañas',
+                                    'lalalala', 'fecha',
+                                     usuario, comunidad)
+comunidad = ComunidadesUsuario('OSW','calle de la luz','10/10/10',  usuario, evento)
+
+
 
 def main():
-    login()
+    usuario.login()
+    
 
 # -----
 main()
