@@ -36,8 +36,12 @@ class Usuarios():
         direcc_comunid_BD       = 'la montaña'
         fecha_creacc_comunid_BD = '01/11/1998'
         #
+        # ---------------------------------------------------------
+        # --- INTENTO de CONECTAR al USUARIO con COMUNIDAD --------
         comunidad = ComunidadesUsuario(nombre_comunid_BD, direcc_comunid_BD, fecha_creacc_comunid_BD, usuario)
         comunidad.opciones_comunidad(usuario)
+        # ---------------------------------------------------------
+        # ---------------------------------------------------------
 
     def _ver_menu(self, usuario, tipo_usuario):
         # -- pongo tipo_usuario

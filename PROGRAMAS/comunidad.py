@@ -7,6 +7,7 @@ class ComunidadesUsuario():
         self.fecha_creacion = fecha_creacion
         self.usuario        = usuario
 
+
     def _lista_comunidades(self, usuario):
         # -- Va a la tabla COMUNIDADES y obtiene
         # -- las comunidades para ese usuario
