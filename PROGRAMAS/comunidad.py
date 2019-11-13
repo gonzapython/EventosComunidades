@@ -1,9 +1,10 @@
 class ComunidadesUsuario():
-    def __init__(self, nombre, direccion, fecha_creacion, usuario, evento):
+    def __init__(self, nombre, direccion, fecha_creacion, usuario, comunidad, evento):
         self.nombre         = nombre
         self.direccion      = direccion
         self.fecha_creacion = fecha_creacion
         self.usuario        = usuario
+        self.comunidad      = comunidad
         self.evento         = evento
 
 

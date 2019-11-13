@@ -26,7 +26,7 @@ class Usuarios():
         #
         #comunidad = ComunidadesUsuario(nombre_comunid_BD, direcc_comunid_BD, fecha_creacc_comunid_BD, usuario)
         #comunidad.opciones_comunidad(usuario)
-        self.comunidad.opciones_comunidad(self.nombre)
+        self.comunidadusuario.opciones_comunidad(self.nombre)
 
     def _menu_usuario_normal(self, usuario):
         # mostrar el menú de usuario normal
